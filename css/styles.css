@@ -249,7 +249,6 @@ margin-right: 40px;
     background-color: #F4F4FD;
     cursor: pointer;
     border-radius: 4px;
-    margin-right: 24px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 12px;
@@ -262,18 +261,16 @@ margin-right: 40px;
     background-color: var(--accent-color);
     color: #FFFFFF;
   }
+  .filter-buttons-iten {
+    margin-right: 24px;
+  }
   .project-classification {
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
     border-top-style: none;
-    padding: 32px;
-    padding-left: 0;
-    
+    padding: 32px 16px;
   }
-  .project-classification-text {
-    margin-left: 16px;
-
-  }
+ 
   .subtitle {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -288,6 +285,7 @@ margin-right: 40px;
   }
   .logo-footer {
     color: #F4F4FD;
+    margin-right: 0;
   }
   
   .footer-descriptions {
